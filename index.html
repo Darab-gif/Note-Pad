@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Note Pad</title>
+    <link rel="stylesheet" href="./pad.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="note">
+      <div class="pad" id="pad"></div>
+      <span class="add">+</span>
+    </div>
+    <div class="modal">
+      <span id="close">&times;</span>
+      <input id="modalText" placeholder="Write something" type="text" /><br />
+      <button id="modalBtn" class="btn">Add</button>
+    </div>
+    <script src="./pad.js"></script>
+  </body>
+</html>
