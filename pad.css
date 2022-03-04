@@ -188,6 +188,9 @@ body {
   .add {
     right: 30%;
   }
+  .modal input[type="text"] {
+    width: 180px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
